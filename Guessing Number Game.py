@@ -10,7 +10,7 @@ print(game_instr.center(72, '*'))
 print('1. Please read the instructions carefully')
 print('2. You have to guess number between 1 and 10')
 print('3. You have 10 chance to guess the number')
-print("4. If you didn't guess the number in first 5 chance, then you will get a hint to guess the number")
+print("4. If you didn't guess the number in first 3 chance, then you will get a hint to guess the number")
 print("5. If you run out of 10 chance, then your game will be end there")
 print('''
 
@@ -47,7 +47,6 @@ while True:
        
     if len(guesses) == 10:
         print('Oops, Your chances are over')
-        print('Please Try Again')
         break
     else:
         pass
